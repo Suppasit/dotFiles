@@ -1,0 +1,28 @@
+# nvr alias
+alias nvs='NVIM_LISTEN_ADDRESS=/tmp/nvimsocket nvim'
+alias nvm='nvr --remote'
+
+# set autojump
+alias ajump='. /usr/share/autojump/autojump.sh'
+
+# moving between folder
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# -----------------------
+# Handling Git
+# -----------------------
+alias gs='git status'
+
+# Git->Log
+gl1() {
+git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+}
+
+gl2() {
+git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+}
+
+# Managing dotFiles using Git
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
