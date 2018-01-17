@@ -25,4 +25,4 @@ git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(re
 }
 
 # Managing dotFiles using Git
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias dotgit='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
