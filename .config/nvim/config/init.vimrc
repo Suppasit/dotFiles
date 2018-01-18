@@ -67,6 +67,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree', { 'on':  ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ryanoasis/vim-devicons'
+" To use tagbar we need to install universal-ctags
+" link: https://github.com/universal-ctags/ctags
 Plug 'majutsushi/tagbar'
 
 " Quick switching between source/header
