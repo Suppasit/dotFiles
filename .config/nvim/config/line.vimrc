@@ -52,3 +52,6 @@ let g:airline#extensions#whitespace#enabled = 0
 "         \ 'x': '#h',
 "         \ 'y': '%b %d',
 " \ 'z': '%R'}
+
+" Show Gutentags status
+set statusline+=%{gutentags#statusline()}

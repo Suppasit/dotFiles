@@ -70,6 +70,8 @@ Plug 'ryanoasis/vim-devicons'
 " To use tagbar we need to install universal-ctags
 " link: https://github.com/universal-ctags/ctags
 Plug 'majutsushi/tagbar'
+" Autogenerate Tag
+Plug 'ludovicchabant/vim-gutentags'
 
 " Quick switching between source/header
 Plug 'derekwyatt/vim-fswitch'
