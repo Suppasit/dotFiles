@@ -118,3 +118,8 @@ autocmd BufNewFile,BufRead,BufEnter *.md,*.markdown :syntax match markdownIgnore
 set clipboard=unnamedplus
 
 set completeopt=longest,menuone,preview
+
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
