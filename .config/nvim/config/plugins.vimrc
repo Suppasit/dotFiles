@@ -1,12 +1,12 @@
 filetype plugin indent on
 
 " neomake config
-autocmd! BufWritePost * Neomake
+"autocmd! BufWritePost * Neomake
 " autocmd BufLeave * QFix
 
-let g:neomake_place_signs = 0
+"let g:neomake_place_signs = 0
 
-let g:neomake_open_list = 2
+"let g:neomake_open_list = 2
 
 "set background=dark
 " colorscheme apprentice

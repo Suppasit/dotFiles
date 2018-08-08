@@ -10,7 +10,7 @@ Plug 'romainl/Apprentice'
 
 " general
 Plug 'ervandew/supertab'
-Plug 'benekastah/neomake'
+"Plug 'benekastah/neomake'
 Plug 'Shougo/deoplete.nvim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
