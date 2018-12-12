@@ -81,3 +81,6 @@ augroup END
 " Don't have FSwitch automatically create new files if they don't already
 " exist.
 let g:fsnonewfiles = 1
+
+" Show normal line number mode:'myusuf3/numbers.vim'
+au VimEnter * NumbersToggle
