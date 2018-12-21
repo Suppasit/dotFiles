@@ -35,7 +35,7 @@ Plug 'justinmk/vim-sneak'
 Plug 'vim-scripts/camelcasemotion'
 
 " eye candy
-Plug 'myusuf3/numbers.vim'
+"Plug 'myusuf3/numbers.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'lilydjwg/colorizer', { 'on': 'ColorToggle' }
