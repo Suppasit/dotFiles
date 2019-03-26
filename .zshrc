@@ -18,6 +18,9 @@ export PATH=$PY_USER_BIN:$PATH
 source $HOME/.aliases
 
 # Enable auto jump
-. /usr/share/autojump/autojump.sh
+#. /usr/share/autojump/autojump.sh
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Enable fasd
+eval "$(fasd --init posix-alias zsh-hook)"

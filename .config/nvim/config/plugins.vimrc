@@ -83,4 +83,4 @@ augroup END
 let g:fsnonewfiles = 1
 
 " Show normal line number mode:'myusuf3/numbers.vim'
-au VimEnter * NumbersToggle
+"au VimEnter * NumbersToggle
