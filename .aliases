@@ -28,3 +28,10 @@ git log --graph --abbrev-commit --decorate --format=format:'%C(blue)%h%C(reset) 
 
 # Managing dotFiles using Git
 alias dotgit='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# Open file manager
+alias open='nautilus'
+#alias open='caja'
+
+# Exe alternative ls
+alias es='/usr/local/bin/exa'
