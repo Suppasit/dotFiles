@@ -34,4 +34,4 @@ alias open='nautilus'
 #alias open='caja'
 
 # Exe alternative ls
-alias es='/usr/local/bin/exa'
+alias es='/usr/bin/exa'

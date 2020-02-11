@@ -43,3 +43,8 @@ export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Modified custom toolchain for Self project
+export CC=/usr/bin/gcc-7
+export CXX=/usr/bin/g++-7
+
